@@ -3,8 +3,11 @@
 
 
 
-weight = int(input("text your weight:"))
-if weight>10 or weight <20:
-    print("naxevari tableti unda dalio dgeshi")
-elif weight>30 or weight <40:
+weight = int(input("enter your weight: "))
+
+if 10 <= weight <= 20:
+    print("naxevari tableti dgeshi")
+elif 30 <= weight <= 40:
     print("1 tableti orjer dgeshi")
+elif weight <= 45:
+    print("sami tableti orjer dgeshi")
